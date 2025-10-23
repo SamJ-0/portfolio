@@ -39,6 +39,7 @@ body {
 
 .name {
   font-size: 5rem;
+  font-weight: 400;
   font-family: "Adamina", serif;
   line-height: 5.5rem;
 }
@@ -85,10 +86,6 @@ body {
 
 .github {
   padding-right: 1.5rem;
-}
-
-.linkedIn {
-
 }
 
 .icons img {
