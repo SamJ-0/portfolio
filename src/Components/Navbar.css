@@ -1,0 +1,53 @@
+
+.nav {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: "Raleway", sans-serif;
+  color: var(--text-colour);
+  padding: 0 3rem;
+}
+
+.logo {
+  font-family: "Adamina", serif;
+  font-size: 1.5rem;
+}
+
+.nav ul {
+  display: flex;
+  gap: 2.5rem;
+
+  padding-left: 2rem;
+  font-size: 0.85rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav li {
+  list-style: none;
+  padding-bottom: 0.2rem;
+}
+
+.nav li.active {
+    text-decoration-thickness: 0.15rem;
+    text-underline-offset: 10px;
+    text-decoration-line: underline;
+    text-decoration-color: var(--text-colour);
+}
+
+.viewCv {
+  color: var(--text-colour);
+  height: 2.5rem;
+  width: 5rem;
+  font-family: inherit;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--purple-accent);
+}
