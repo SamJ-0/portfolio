@@ -1,0 +1,24 @@
+.tagContainer {
+    max-width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    margin: 2rem 0;
+}
+
+.tagWrapper {
+    min-height: fit-content;
+    min-width: fit-content;
+    max-width: fit-content;
+
+    background-color: var(--tag-colour);
+    border-radius: 6px;
+}
+
+.tagText {
+    color: #C084FC;
+    font-size: 0.9rem;
+    font-weight: var(--medium);
+    padding: 0.3rem 0.65rem;
+}

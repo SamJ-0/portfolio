@@ -40,14 +40,3 @@
     text-decoration-line: underline;
     text-decoration-color: var(--text-colour);
 }
-
-.viewCv {
-  color: var(--text-colour);
-  height: 2.5rem;
-  width: 5rem;
-  font-family: inherit;
-  font-weight: 600;
-  border: none;
-  border-radius: 4px;
-  background-color: var(--purple-accent);
-}

@@ -1,14 +1,16 @@
 import { ArrowRight } from "lucide-react"
+import "./Home.css"
+import Button from "../../Components/Button"
 
 function Home() {
     return(
-        <div className="container">
+        <div className="homeContainer">
             <section className="intro">
                 <h2 className="hello">Hello, I'm</h2>
                 <h1 className="name">
                     Samantha<br/>
                     Johnson</h1>
-                <button className="viewProjects">View projects<span className="rightArrow"><ArrowRight/></span></button>
+                <Button buttonStyle={"viewProjects"}>View projects<span className="rightArrow"><ArrowRight/></span></Button>
             </section>
             <section className="roleIntro">
                 <div className="role">

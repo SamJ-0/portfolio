@@ -1,4 +1,5 @@
 import "./Navbar.css"
+import Button from "./Button.jsx"
 
 function Navbar() {
     return(
@@ -18,7 +19,7 @@ function Navbar() {
                     <a href="Contact">Contact</a>
                 </li>
             </ul>
-            <button className="viewCv">View CV</button>
+            <Button buttonStyle="cvBtn">View CV</Button>
         </nav>
     )
 

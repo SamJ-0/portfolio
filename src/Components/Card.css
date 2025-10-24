@@ -1,0 +1,8 @@
+.cardContainer {
+    min-width: 300px;
+    min-height: 300px;
+
+    max-height: 80%;
+    max-width: 90%;
+    background-color: hsl(0, 0%, 15%);
+}

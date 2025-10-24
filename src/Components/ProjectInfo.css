@@ -1,0 +1,17 @@
+.projectTitle {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-weight: var(--medium);
+}
+
+.projectDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 35%;
+    margin-bottom: 2rem;
+}
+
+.projectDetailsText {
+    font-size: 1.15rem;
+    line-height: 1.75rem;
+}

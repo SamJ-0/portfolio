@@ -1,5 +1,7 @@
-import Navbar from "./Components/Navbar"
-import Home from "./Pages/Home"
+
+import Navbar from "./Components/Navbar.jsx"
+import Home from "./pages/Home/Home.jsx"
+import Projects from "./pages/Projects/Projects.jsx"
 
 function App() {
 
@@ -7,6 +9,7 @@ function App() {
     <>
     <Navbar/>
     <Home/>
+    <Projects/>
     </>
   )
 }

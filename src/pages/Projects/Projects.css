@@ -1,0 +1,27 @@
+.projectsContainer {
+  height: 85vh;
+  max-width: 100%;
+  padding: 0 3rem;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.projects {
+  font-weight: var(--bold);
+  font-size: var(--secondary-header-size);
+
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.15rem;
+  text-underline-offset: 1.25rem;
+  text-decoration-color: var(--purple-accent);
+}
+
+.projectContents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

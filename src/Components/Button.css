@@ -1,0 +1,26 @@
+button {
+  font-family: inherit;
+}
+.cvBtn {
+  color: var(--text-colour);
+  height: 2.5rem;
+  width: 5rem;
+  font-weight: var(--semi-bold);
+  border: none;
+  border-radius: 4px;
+  background-color: var(--purple-accent);
+}
+
+.viewProjects {
+  height: 2.75rem;
+  min-width: 7.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+
+  color: var(--text-colour);
+  border: none;
+  background-color: var(--navy-background);
+  border-bottom: 0.15rem solid var(--purple-accent);
+}
