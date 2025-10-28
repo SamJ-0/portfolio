@@ -1,0 +1,54 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+
+    min-height: 80vh;
+    max-height: 100vh;
+    min-width: 50%;
+    max-width: 100%;
+    margin-bottom: 8rem;
+}
+
+.aboutContent {
+    font-size: 1.25rem;
+    line-height: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    max-width: 78%;
+    gap: 1.5rem;
+}
+
+.aboutPanel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.techStackHeader {
+    font-size: 1.25rem;
+    font-weight: var(--medium);
+    font-family: var(--h3-ff);
+    margin-bottom: 0.5rem;
+}
+
+.skillsList {
+    font-weight: var(--reg);
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.listSlash {
+    color: var(--yellow);
+    font-weight: var(--semi-bold);
+}
+
+.skillsList li {
+    font-size: 1.25rem;
+    list-style: none;
+    line-height: 2.5rem;
+}

@@ -1,5 +1,6 @@
 .tagContainer {
-    max-width: 25%;
+    min-width: 25%;
+    max-width: 60%;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -17,8 +18,9 @@
 }
 
 .tagText {
-    color: #C084FC;
-    font-size: 0.9rem;
-    font-weight: var(--medium);
-    padding: 0.3rem 0.65rem;
+    /* color: #C084FC; */
+    color:  hsl(0, 0%, 85%);
+    font-size: 0.8rem;
+    font-weight: var(--reg);
+    padding: 0.4rem 0.65rem;
 }

@@ -8,9 +8,9 @@ function Home() {
             <section className="intro">
                 <h2 className="hello">Hello, I'm</h2>
                 <h1 className="name">
-                    Samantha<br/>
-                    Johnson</h1>
-                <Button buttonStyle={"viewProjects"}>View projects<span className="rightArrow"><ArrowRight/></span></Button>
+                    SAMANTHA<br/>
+                    JOHNSON</h1>
+                <Button buttonStyle={"viewProjects"}>View projects<span className="rightArrow"><ArrowRight strokeWidth={1.5}/></span></Button>
             </section>
             <section className="roleIntro">
                 <div className="role">
@@ -21,7 +21,7 @@ function Home() {
                     Self-taught developer with an interest in UI, UX and<br/>design.
                     I love creating clean, engaging projects and<br/>combining my skills
                     to build complete applications.</p>
-                    <div className="icons">
+                    <div className="homeIcons">
                             <img className="github" src="/github.svg" alt="Github logo" />
                             <img className="linkedIn" src="/InBug-White.png" alt="LinkedIn 'In' logo" />
                     </div>

@@ -1,0 +1,17 @@
+.pageTitleContainer {
+    min-width: 150px;
+    min-height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+    background-color: var(--coral-accent);
+}
+
+.pageTitle {
+    font-family: var(--section-heading);
+    font-size: 3.75rem;
+    line-height: 3rem;
+    text-align: center;
+}

@@ -1,14 +1,13 @@
 
 .nav {
   height: 5rem;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   font-family: "Raleway", sans-serif;
   color: var(--text-colour);
-  padding: 0 3rem;
 }
 
 .logo {

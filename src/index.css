@@ -1,16 +1,22 @@
 :root {
-  --navy-background: #1A1438;
-  --yellow: #F6B93B;
-  --purple-accent: #673EF1;
-  --text-colour: #eaeaea;
-  --tag-colour: rgba(192, 132, 252, 0.3);
+  --navy-background: hsl(249, 49%, 12%);
+  --yellow: hsl(40, 91%, 60%);
+  --purple-accent: hsl(254, 86%, 59%);
+  --coral-accent: hsl(3, 100%, 64%);
+  --text-colour: hsl(0, 0%, 92%);
+  /* --tag-colour: hsla(270, 95%, 75%, 0.3); */
+  --tag-colour: hsla(254, 86%, 59%, 0.25);
 
-  --secondary-header-size: 2.5rem;
-
+  --light: 300;
   --reg: 400;
   --medium: 500;
   --semi-bold: 600;
   --bold: 700;
+
+  --section-heading: "Bebas Neue", sans-serif;
+  --h3-ff: "Poppins", sans-serif;
+  --main-ff: "RaleWay", sans-serif;
+
 }
 
 * {
@@ -21,23 +27,52 @@
 
 body {
   color: var(--text-colour);
-  font-family: "Raleway", "Poppins", "Arial", sans-serif;
+  font-family: var(--main-ff);
   background-color: var(--navy-background);
+  padding: 0 4rem;
 }
 
 .icons {
-  width: 8rem;
   display: flex;
-}
-
-.github {
-  padding-right: 1.5rem;
+  min-width: fit-content;
+  gap: 1rem;
 }
 
 .linkedIn {
   height: 1.95rem;
+  padding-right: 2rem;
 }
 
 .icons img {
   max-height: 2rem;
+}
+
+.pageHeading {
+  font-weight: var(--bold);
+  font-size: var(--secondary-header-size);
+
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.15rem;
+  text-underline-offset: 1.25rem;
+  text-decoration-color: var(--purple-accent);
+}
+
+.pageHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontalLine {
+    height: 0.05rem;
+    width: 100%;
+    background-color: #ffff;
+    margin-left: 5%;
+}
+
+.horizontalLineRight {
+    height: 0.05rem;
+    width: 100%;
+    background-color: #ffff;
+    margin-right: 5%;
 }

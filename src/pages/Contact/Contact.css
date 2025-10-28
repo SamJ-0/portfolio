@@ -1,0 +1,28 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 35vh;
+    min-width: 50%;
+    max-width: 100%;
+}
+
+.contactDetailsPanel {
+    min-width: fit-content;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contactLinks {
+    display: flex;
+    gap: 2rem;
+}
+
+.emailLabel {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-weight: var(--medium);
+}

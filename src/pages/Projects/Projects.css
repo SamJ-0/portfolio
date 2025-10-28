@@ -1,27 +1,25 @@
 .projectsContainer {
-  height: 85vh;
+  min-height: 100vh;
+  min-width: 50%;
   max-width: 100%;
-  padding: 0 3rem;
+  margin-bottom: 8rem;
 }
 
-.heading {
-  width: 100%;
+.pageHeader {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
 }
 
-.projects {
-  font-weight: var(--bold);
-  font-size: var(--secondary-header-size);
-
-  text-decoration-line: underline;
-  text-decoration-thickness: 0.15rem;
-  text-underline-offset: 1.25rem;
-  text-decoration-color: var(--purple-accent);
-}
-
-.projectContents {
+.projectPanel {
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-top: 8%;
+}
+
+.projectInfoSection {
+  max-width: 75%;
+  min-width: 30%
 }
