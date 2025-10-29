@@ -8,8 +8,8 @@ function Home() {
             <section className="intro">
                 <h2 className="hello">Hello, I'm</h2>
                 <h1 className="name">
-                    SAMANTHA<br/>
-                    JOHNSON</h1>
+                    FIRST NAME<br/>
+                    LAST NAME</h1>
                 <Button buttonStyle={"viewProjects"}>View projects<span className="rightArrow"><ArrowRight strokeWidth={1.5}/></span></Button>
             </section>
             <section className="roleIntro">

@@ -2,20 +2,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 80%;
-    max-width: 50%;
+    /* max-height: 80%;
+    max-width: 50%; */
+    max-height: max-content;
+    max-width: max-content;
     border-radius: 6px;
  
     background-color: hsla(0, 0%, 50%, 0.2);
+    overflow: hidden;
 }
 
 .cardContentImg {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.cardImg {
-    max-width: 90%;
-    max-height: 90%;
 }

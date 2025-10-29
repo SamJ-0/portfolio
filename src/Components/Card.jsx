@@ -1,6 +1,7 @@
 import "./Card.css"
 
 function Card({isImage, children, minWidth, minHeight}) {
+
     return(
         <div className="cardContainer" style={{minWidth: minWidth, minHeight: minHeight}}>
             {isImage ?  <div className="cardContentImg">
