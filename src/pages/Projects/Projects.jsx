@@ -1,14 +1,18 @@
 import Card from "../../components/Card"
 import PageTitle from "../../components/PageTitle"
 import ProjectInfo from "../../components/ProjectInfo"
+import projectOneImg from "./assets/OSRS-bank-planner-full.png"
+import projectOneMockUp from "./assets/OSRS-bank-planner-mock-up.jpg"
+import projectTwoImg from "./assets/Tv-show-library-small-cards.png"
+import projectTwoMockUp from "./assets/Tv-show-mock-up.jpg"
 import "./Projects.css"
 
 function Projects() {
-    const projectOneImg = "../src/assets/OSRS-bank-planner-full.png"
-    const projectOneMockUp = "../src/assets/OSRS-bank-planner-mock-up.jpg";
+    // const projectOneImg = "../src/assets/OSRS-bank-planner-full.png";
+    // const projectOneMockUp = "../src/assets/OSRS-bank-planner-mock-up.jpg";
 
-    const projectTwoImg = "../src/assets/Tv-show-library-small-cards.png";
-    const projectTwoMockUp = "../src/assets/Tv-show-mock-up.jpg";
+    // const projectTwoImg = "../src/assets/Tv-show-library-small-cards.png";
+    // const projectTwoMockUp = "../src/assets/Tv-show-mock-up.jpg";
 
     return(
         <div className="projectsContainer">
