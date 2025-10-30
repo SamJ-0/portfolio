@@ -1,5 +1,5 @@
 import "./Navbar.css"
-import Button from "./Button.jsx"
+import Button from "./Button"
 
 function Navbar() {
     return(

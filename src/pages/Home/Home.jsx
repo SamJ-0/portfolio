@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react"
 import "./Home.css"
-import Button from "../../Components/Button"
+import Button from "../../components/Button"
 
 function Home() {
     return(
@@ -8,8 +8,8 @@ function Home() {
             <section className="intro">
                 <h2 className="hello">Hello, I'm</h2>
                 <h1 className="name">
-                    FIRST NAME<br/>
-                    LAST NAME</h1>
+                    Samantha<br/>
+                    Johnson</h1>
                 <Button buttonStyle={"viewProjects"}>View projects<span className="rightArrow"><ArrowRight strokeWidth={1.5}/></span></Button>
             </section>
             <section className="roleIntro">

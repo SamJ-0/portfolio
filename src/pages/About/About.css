@@ -1,7 +1,7 @@
 .aboutContainer {
     display: flex;
     flex-direction: column;
-    gap: 8rem;
+    gap: 10rem;
 
     min-height: 80vh;
     max-height: 100vh;
