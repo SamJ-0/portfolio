@@ -1,5 +1,5 @@
-import Button from "../../temp_folder_name_change/Button"
-import PageTitle from "../../temp_folder_name_change/PageTitle"
+import Button from "../../components/Button"
+import PageTitle from "../../components/PageTitle"
 import "./Contact.css"
 
 function Contact() {
