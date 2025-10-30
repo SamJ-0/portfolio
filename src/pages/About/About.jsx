@@ -1,5 +1,5 @@
-import PageTitle from "../../components/PageTitle"
-import Card from "../../components/Card"
+import PageTitle from "../../Components/PageTitle"
+import Card from "../../Components/Card"
 import "./About.css"
 function About() {
     return(

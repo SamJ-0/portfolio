@@ -1,5 +1,5 @@
-import Button from "../../components/Button"
-import PageTitle from "../../components/PageTitle"
+import Button from "../../Components/Button"
+import PageTitle from "../../Components/PageTitle"
 import "./Contact.css"
 
 function Contact() {
