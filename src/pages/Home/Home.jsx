@@ -14,8 +14,8 @@ function Home() {
             </section>
             <section className="roleIntro">
                 <div className="role">
-                    <div className="jobLevel">Junior</div>
-                   <div>Software developer</div>
+                    <h2 className="jobLevel">Junior</h2>
+                   <h2>Software developer</h2>
                 </div>
                 <p className="description">
                     Self-taught developer with an interest in UI, UX and<br/>design.
