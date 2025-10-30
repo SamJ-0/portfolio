@@ -1,10 +1,10 @@
 import Card from "../../components/Card"
 import PageTitle from "../../components/PageTitle"
 import ProjectInfo from "../../components/ProjectInfo"
-import projectOneImg from "./assets/OSRS-bank-planner-full.png"
-import projectOneMockUp from "./assets/OSRS-bank-planner-mock-up.jpg"
-import projectTwoImg from "./assets/Tv-show-library-small-cards.png"
-import projectTwoMockUp from "./assets/Tv-show-mock-up.jpg"
+import projectOneImg from "src/assets/OSRS-bank-planner-full.png"
+import projectOneMockUp from "src/assets/OSRS-bank-planner-mock-up.jpg"
+import projectTwoImg from "src/assets/Tv-show-library-small-cards.png"
+import projectTwoMockUp from "src/assets/Tv-show-mock-up.jpg"
 import "./Projects.css"
 
 function Projects() {
