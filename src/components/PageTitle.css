@@ -13,5 +13,5 @@
     font-family: var(--section-heading);
     font-size: 3.75rem;
     line-height: 3rem;
-    text-align: center;
+    /* text-align: center; */
 }
