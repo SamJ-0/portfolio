@@ -21,6 +21,7 @@ function Projects() {
                 title={"Osrs bank planner V1"}
                 firstParagraph={"This was a website designed to help layout and organise your in-game bank on the game Old School Runescape."}
                 secondParagraph={"Built in React with Vite this website calls an API through a backend server using Node.js and Express.js to retrieve game item information and save them to a JSON file."}
+                tags={["HTML", "CSS", "Javascript", "React", "Node.js", "Express.js", "API Integration"]}
                 />
             </section>
             <div className="cardSection">
@@ -49,6 +50,7 @@ function Projects() {
                 title={"Tv Show Tracker"}
                 firstParagraph={"This was a responsive website designed to help track tv shows you’re currently planning to watch, are watching, have seen or dropped."}
                 secondParagraph={"Built with vanilla HTML, CSS and Javascript, this is a CRUD application that allows users to add, edit and delete the tv shows they want to keep track of."}
+                tags={["HTML", "CSS", "Javascript", "localStorage"]}
                 />
             </section>
             </div>

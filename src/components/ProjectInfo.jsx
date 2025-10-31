@@ -3,18 +3,14 @@ import Tags from "./Tags"
 import "./ProjectInfo.css"
 import "../index.css"
 
-function ProjectInfo({title, firstParagraph, secondParagraph}) {
+function ProjectInfo({title, firstParagraph, secondParagraph, tags}) {
     return(
             <div className="projectInfoContainer">
             <h3 className="projectTitle">{title}</h3>
             <div className="tagContainer">
-                <Tags>HTML</Tags>
-                <Tags>CSS</Tags>
-                <Tags>Javascript</Tags>
-                <Tags>React</Tags>
-                <Tags>Node.js</Tags>
-                <Tags>Express.js</Tags>
-                <Tags>API Integration</Tags>
+                {tags.map((tag) => {
+                    return <Tags>{tag}</Tags>
+                })}
             </div>
             <div className="projectDesc">
                 <p>{firstParagraph}</p>
