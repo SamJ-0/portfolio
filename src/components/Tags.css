@@ -1,6 +1,6 @@
 .tagContainer {
     min-width: 25%;
-    max-width: 60%;
+    max-width: 65%;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
