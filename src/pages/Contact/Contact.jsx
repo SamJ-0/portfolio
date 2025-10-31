@@ -10,14 +10,14 @@ function Contact() {
                 <PageTitle>Con<br/>tact</PageTitle>
                 <div className="horizontalLine"></div>
             </section>
-            <div className="contactDetailsPanel">
+            <footer className="contactDetailsPanel">
                     <Icons showLinkedIn={true} containerClass={"iconContainer"}/>
                 <div className="email">
                     <p className="emailLabel">Email:</p>
                     <p className="emailAddress">ExampleEmail@outlook.com</p>
                 </div>
                 <Button buttonStyle={"contactBtn"}>View CV</Button>
-            </div>
+            </footer>
         </div>
     )
 }

@@ -2,9 +2,9 @@
   --navy-background: hsl(249, 49%, 12%);
   --yellow: hsl(40, 91%, 60%);
   --purple-accent: hsl(254, 86%, 59%);
+  --purple-accent-hover: hsl(254, 86%, 57%);
   --coral-accent: hsl(3, 100%, 64%);
   --text-colour: hsl(0, 0%, 92%);
-  /* --tag-colour: hsla(270, 95%, 75%, 0.3); */
   --tag-colour: hsla(254, 86%, 59%, 0.25);
 
   --light: 300;
