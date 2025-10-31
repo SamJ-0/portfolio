@@ -1,4 +1,5 @@
 import Button from "../../components/Button"
+import Icons from "../../components/Icons"
 import PageTitle from "../../components/PageTitle"
 import "./Contact.css"
 
@@ -10,10 +11,7 @@ function Contact() {
                 <div className="horizontalLine"></div>
             </section>
             <div className="contactDetailsPanel">
-                 <div className="icons">
-                            <img className="github" src="/github.svg" alt="Github logo" />
-                            <img className="linkedIn" src="/InBug-White.png" alt="LinkedIn 'In' logo" />
-                    </div>
+                    <Icons showLinkedIn={true} containerClass={"iconContainer"}/>
                 <div className="email">
                     <p className="emailLabel">Email:</p>
                     <p className="emailAddress">ExampleEmail@outlook.com</p>

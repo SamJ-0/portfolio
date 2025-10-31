@@ -1,7 +1,7 @@
 import Tags from "./Tags"
-
 import "./ProjectInfo.css"
 import "../index.css"
+import Icons from "./Icons"
 
 function ProjectInfo({title, firstParagraph, secondParagraph, tags}) {
     return(
@@ -16,9 +16,7 @@ function ProjectInfo({title, firstParagraph, secondParagraph, tags}) {
                 <p>{firstParagraph}</p>
                 <p>{secondParagraph}</p>
             </div>
-            <div className="icons">
-                <img className="github" src="/github.svg" alt="Github logo" />
-            </div>
+            <Icons showLinkedIn={false} containerClass={"iconContainer"}/>
         </div>
     )
 }

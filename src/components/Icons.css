@@ -1,0 +1,26 @@
+.homeIcons {
+  display: flex;
+  min-width: fit-content;
+  align-self: flex-end;
+  gap: 1rem;
+  margin-top: 3.25rem;
+}
+
+.homeIcons img {
+  max-height: 2rem;
+  align-self: flex-end;
+}
+
+.iconContainer {
+    display: flex;
+}
+
+.icons img {
+    min-height: 2rem;
+    max-height: 2rem;
+    max-width: 100%;
+}
+
+.linkedInIcon {
+    padding-left: 1rem;
+}

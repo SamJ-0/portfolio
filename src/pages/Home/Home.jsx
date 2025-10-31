@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react"
 import "./Home.css"
 import Button from "../../components/Button"
+import Icons from "../../components/Icons"
 
 function Home() {
     return(
@@ -21,10 +22,7 @@ function Home() {
                     Self-taught developer with an interest in UI, UX and<br/>design.
                     I love creating clean, engaging projects and<br/>combining my skills
                     to build complete applications.</p>
-                    <div className="homeIcons">
-                            <img className="github" src="/github.svg" alt="Github logo" />
-                            <img className="linkedIn" src="/InBug-White.png" alt="LinkedIn 'In' logo" />
-                    </div>
+                    <Icons showLinkedIn={true} containerClass={"homeIcons"}/>
             </section>
         </div>
     )

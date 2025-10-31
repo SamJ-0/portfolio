@@ -55,15 +55,3 @@
   line-height: 1.75rem;
 }
 
-.homeIcons {
-  display: flex;
-  min-width: fit-content;
-  align-self: flex-end;
-  gap: 1rem;
-  margin-top: 3.5rem;
-}
-
-.homeIcons img {
-  max-height: 2rem;
-  align-self: flex-end;
-}

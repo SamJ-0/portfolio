@@ -32,21 +32,6 @@ body {
   padding: 0 4rem;
 }
 
-.icons {
-  display: flex;
-  min-width: fit-content;
-  gap: 1rem;
-}
-
-.linkedIn {
-  height: 1.95rem;
-  padding-right: 2rem;
-}
-
-.icons img {
-  max-height: 2rem;
-}
-
 .pageHeading {
   font-weight: var(--bold);
   font-size: var(--secondary-header-size);
