@@ -5,7 +5,7 @@ import Icons from "../../components/Icons"
 
 function Home() {
     return(
-        <div className="homeContainer">
+        <div className="homeContainer" id="homeSection">
             <section className="intro">
                 <h2 className="hello">Hello, I'm</h2>
                 <h1 className="name">

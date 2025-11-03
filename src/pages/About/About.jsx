@@ -3,7 +3,7 @@ import Card from "../../components/Card"
 import "./About.css"
 function About() {
     return(
-        <div className="aboutContainer">
+        <div className="aboutContainer" id="aboutSection">
             <section className="pageHeader">
                 <div className="horizontalLineRight"></div>
                 <PageTitle>Ab<br/>out</PageTitle>

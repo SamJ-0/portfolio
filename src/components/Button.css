@@ -1,6 +1,7 @@
 button {
   font-family: inherit;
 }
+
 .cvBtn {
   color: var(--text-colour);
   height: 2.5rem;
@@ -9,11 +10,12 @@ button {
   border: none;
   border-radius: 6px;
   background-color: var(--purple-accent);
-
+  transition: transform 300ms;
 }
 
 .cvBtn:hover {
   cursor: pointer;
+  transform: translateY(-0.15rem);
   background-color: var(--purple-accent-hover);
 }
 

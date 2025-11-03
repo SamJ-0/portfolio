@@ -5,7 +5,7 @@ import "./Contact.css"
 
 function Contact() {
     return(
-        <div className="contactContainer">
+        <div className="contactContainer" id="contactSection">
             <section className="pageHeader">
                 <PageTitle>Con<br/>tact</PageTitle>
                 <div className="horizontalLine"></div>

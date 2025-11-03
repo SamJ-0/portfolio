@@ -15,10 +15,18 @@
     display: flex;
 }
 
+.github:hover,
+.linkedIn:hover {
+  scale: 1.2;
+  opacity: 100%;
+}
+
 .icons img {
     min-height: 2rem;
     max-height: 2rem;
     max-width: 100%;
+    opacity: 95%;
+    transition: 150ms ease;
 }
 
 .linkedInIcon {

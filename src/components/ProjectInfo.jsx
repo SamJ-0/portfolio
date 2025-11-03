@@ -8,8 +8,8 @@ function ProjectInfo({title, firstParagraph, secondParagraph, tags}) {
             <div className="projectInfoContainer">
             <h3 className="projectTitle">{title}</h3>
             <div className="tagContainer">
-                {tags.map((tag) => {
-                    return <Tags>{tag}</Tags>
+                {tags.map((tag, index) => {
+                    return <Tags key={index}>{tag}</Tags>
                 })}
             </div>
             <div className="projectDesc">

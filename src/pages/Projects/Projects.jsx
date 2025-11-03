@@ -10,7 +10,7 @@ import "./Projects.css"
 function Projects() {
 
     return(
-        <div className="projectsContainer">
+        <div className="projectsContainer" id="projectSection">
             <section className="pageHeader">
                 <PageTitle>Proj<br/>ects</PageTitle>
                 <div className="horizontalLine"></div>

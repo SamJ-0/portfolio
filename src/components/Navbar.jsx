@@ -1,22 +1,29 @@
 import "./Navbar.css"
 import Button from "./Button"
+import { useState } from "react"
 
 function Navbar() {
+    const [active, setIsActive] = useState();
+
+    const handleOnClick = () => {
+        setIsActive(true);
+    }
+
     return(
         <nav className="nav">
             <a href="/" className="logo">SJ</a>
             <ul>
-                <li className="active">
-                    <a href="/home">Home</a>
+                <li onClick={handleOnClick}>
+                    <a href="#homeSection">Home</a>
                 </li>
-                <li>
-                    <a href="/projects">Projects</a>
+                <li onClick={handleOnClick}>
+                    <a href="#projectSection">Projects</a>
                 </li>
-                <li>
-                    <a href="/about">About</a>
+                <li onClick={handleOnClick}>
+                    <a href="#aboutSection">About</a>
                 </li>
-                <li>
-                    <a href="Contact">Contact</a>
+                <li onClick={handleOnClick}>
+                    <a href="#contactSection">Contact</a>
                 </li>
             </ul>
             <Button buttonStyle="cvBtn">View CV</Button>
