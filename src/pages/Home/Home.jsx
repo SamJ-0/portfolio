@@ -11,7 +11,7 @@ function Home() {
                 <h1 className="name">
                     Samantha<br/>
                     Johnson</h1>
-                <Button buttonStyle={"viewProjects"}>View projects<span className="rightArrow"><ArrowRight strokeWidth={1.5}/></span></Button>
+                <a href="#projectSection" className={"viewProjects"}>View projects<span className="rightArrow"><ArrowRight strokeWidth={1.5}/></span></a>
             </section>
             <section className="roleIntro">
                 <div className="role">

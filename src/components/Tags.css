@@ -18,7 +18,6 @@
 }
 
 .tagText {
-    /* color: #C084FC; */
     color:  hsl(0, 0%, 85%);
     font-size: 0.8rem;
     font-weight: var(--reg);

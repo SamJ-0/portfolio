@@ -10,39 +10,14 @@ button {
   border: none;
   border-radius: 6px;
   background-color: var(--purple-accent);
-  transition: transform 300ms;
+  transition: transform 300ms,
+              background-color 300ms ease-in-out;
 }
 
 .cvBtn:hover {
   cursor: pointer;
   transform: translateY(-0.15rem);
   background-color: var(--purple-accent-hover);
-}
-
-.viewProjects {
-  height: 2.75rem;
-  min-width: 7.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 6rem;
-
-  color: var(--text-colour);
-  border: none;
-  background-color: transparent;
-  border-bottom: 0.15rem solid var(--purple-accent);
-}
-
-.viewProjects:hover {
-  cursor: pointer;
-}
-
-.rightArrow {
-  padding-left: 0.5rem;
-}
-
-.viewProjects:hover .rightArrow {
-   animation: 750ms ease-in-out infinite normal bounce;
 }
 
 @keyframes bounce {
@@ -65,4 +40,12 @@ button {
   border: none;
   background-color: transparent;
   border-bottom: 0.15rem solid var(--yellow);
+  position: relative;
+  cursor: pointer;
+  transition: transform 300ms;
+}
+
+.contactBtn:hover,
+.viewProjects:hover {
+  transform: translateY(-0.15rem);
 }

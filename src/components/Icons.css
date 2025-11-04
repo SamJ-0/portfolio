@@ -7,7 +7,6 @@
 }
 
 .homeIcons img {
-  max-height: 2rem;
   align-self: flex-end;
 }
 
@@ -17,7 +16,7 @@
 
 .github:hover,
 .linkedIn:hover {
-  scale: 1.2;
+  transform: scale(1.2);
   opacity: 100%;
 }
 
@@ -26,7 +25,7 @@
     max-height: 2rem;
     max-width: 100%;
     opacity: 95%;
-    transition: 150ms ease;
+    transition: transform 200ms ease-in-out, opacity 150ms ease-in-out;
 }
 
 .linkedInIcon {

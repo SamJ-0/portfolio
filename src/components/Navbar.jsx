@@ -3,26 +3,21 @@ import Button from "./Button"
 import { useState } from "react"
 
 function Navbar() {
-    const [active, setIsActive] = useState();
-
-    const handleOnClick = () => {
-        setIsActive(true);
-    }
 
     return(
         <nav className="nav">
             <a href="/" className="logo">SJ</a>
             <ul>
-                <li onClick={handleOnClick}>
+                <li>
                     <a href="#homeSection">Home</a>
                 </li>
-                <li onClick={handleOnClick}>
+                <li>
                     <a href="#projectSection">Projects</a>
                 </li>
-                <li onClick={handleOnClick}>
+                <li>
                     <a href="#aboutSection">About</a>
                 </li>
-                <li onClick={handleOnClick}>
+                <li>
                     <a href="#contactSection">Contact</a>
                 </li>
             </ul>
