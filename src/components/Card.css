@@ -1,4 +1,9 @@
 .cardContainer {
+    min-height: 17.2rem;
+
+    /* min-width: 17.8rem; */
+    min-width: 8rem;
+    max-width: 40.625rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,7 +11,6 @@
  
     background-color: hsla(0, 0%, 50%, 0.2);
     overflow: hidden;
-    transition: all 2s ease-in;
 }
 
 .cardContentImg {
@@ -19,4 +23,8 @@
     max-width: 100%;
     object-fit: cover;
     aspect-ratio: 1.44/1;
+}
+
+.cardContents {
+    padding: 0 4.5rem;
 }

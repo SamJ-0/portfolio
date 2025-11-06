@@ -2,11 +2,6 @@
     display: flex;
     flex-direction: column;
     gap: 10rem;
-
-    min-height: 80vh;
-    max-height: 100vh;
-    min-width: 50%;
-    max-width: 100%;
     margin-bottom: 8rem;
 }
 
@@ -16,7 +11,7 @@
 
     display: flex;
     flex-direction: column;
-    max-width: 78%;
+    max-width: 75%;
     gap: 1.5rem;
 }
 
@@ -36,7 +31,6 @@
 
 .skillsList {
     font-weight: var(--reg);
-    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;

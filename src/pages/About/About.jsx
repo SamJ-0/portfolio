@@ -22,7 +22,7 @@ function About() {
                 </p>
             </section>
             <div className="skillsBackground">
-                <Card minWidth={"425px"} minHeight={"275px"} isImage={false}>
+                <Card isImage={false}>
                     <h3 className="techStackHeader">Tech Stack</h3>
                     <ul className="skillsList">
                         <li>HTML</li>

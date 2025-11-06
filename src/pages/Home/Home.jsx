@@ -1,6 +1,5 @@
 import { ArrowRight } from "lucide-react"
 import "./Home.css"
-import Button from "../../components/Button"
 import Icons from "../../components/Icons"
 
 function Home() {

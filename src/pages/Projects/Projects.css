@@ -1,8 +1,8 @@
 .projectsContainer {
   min-height: 100vh;
-  min-width: 50%;
   max-width: 100%;
-  margin-bottom: 8rem;
+  padding-bottom: 8rem;
+
 }
 
 .pageHeader {
@@ -11,15 +11,13 @@
 }
 
 .projectPanel {
-  width: 100%;
   display: grid;
-  grid-template-columns: 50% 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   justify-items: center;
   align-items: center;
-  margin-top: 10%;
+  padding-top: 10%;
 }
 
 .projectInfoSection {
   max-width: 75%;
-  min-width: 30%
 }

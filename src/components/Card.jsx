@@ -19,13 +19,13 @@ function Card({isImage, children, mainImage, hoverImage, mainAltText, hoverAltTe
     return(
         <>
             {isImage ?  
-        <div className="cardContainer" style={{width: "650px", height: "450px"}}>
+        <div className="cardContainer">
              <div className="cardContentImg" onMouseEnter={handleOnMouseEnter} onMouseOut={handleOnMouseOut}>
                 <img className="projectImage" src={currentImage} alt={currentImgAlt} />
             </div>
             </div>
              :
-             <div className="cardContainer" style={{width: "425px", height: "275px"}}>
+             <div className="cardContainer">
              <div className="cardContents">
                 {children}
             </div>

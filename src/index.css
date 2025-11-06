@@ -2,7 +2,7 @@
   --navy-background: hsl(249, 49%, 12%);
   --yellow: hsl(40, 91%, 60%);
   --purple-accent: hsl(254, 86%, 59%);
-  --purple-accent-hover: hsl(254, 86%, 57%);
+  --purple-accent-hover: hsla(254, 86%, 59%, 0.9);
   --coral-accent: hsl(3, 100%, 64%);
   --text-colour: hsl(0, 0%, 92%);
   --tag-colour: hsla(254, 86%, 59%, 0.25);
@@ -29,21 +29,20 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  color: var(--text-colour);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 body {
   color: var(--text-colour);
   font-family: var(--main-ff);
   background-color: var(--navy-background);
-  padding: 0 4rem;
-}
-
-.pageHeading {
-  font-weight: var(--bold);
-  font-size: var(--secondary-header-size);
-
-  text-decoration-line: underline;
-  text-decoration-thickness: 0.15rem;
-  text-underline-offset: 1.25rem;
-  text-decoration-color: var(--purple-accent);
+  padding: 0 min(4rem, 8%);
 }
 
 .pageHeader {

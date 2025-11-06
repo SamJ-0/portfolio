@@ -2,33 +2,9 @@ button {
   font-family: inherit;
 }
 
-.cvBtn {
-  color: var(--text-colour);
-  height: 2.5rem;
-  width: 5rem;
-  font-weight: var(--semi-bold);
-  border: none;
-  border-radius: 6px;
-  background-color: var(--purple-accent);
-  transition: transform 300ms,
-              background-color 300ms ease-in-out;
-}
-
-.cvBtn:hover {
-  cursor: pointer;
-  transform: translateY(-0.15rem);
-  background-color: var(--purple-accent-hover);
-}
-
-@keyframes bounce {
-  0%, 100% { transform: translateX(0);}
-  50% { transform: translateX(5px);}
-}
-
 .contactBtn {
   height: 2rem;
   max-width: 5rem;
-  min-width: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;

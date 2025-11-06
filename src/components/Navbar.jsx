@@ -1,13 +1,15 @@
 import "./Navbar.css"
 import Button from "./Button"
-import { useState } from "react"
 
 function Navbar() {
 
     return(
-        <nav className="nav">
+        <header className="header">
+            <div className="headerContent">
             <a href="/" className="logo">SJ</a>
-            <ul>
+
+        <nav className="nav">
+            <ul className="navList">
                 <li>
                     <a href="#homeSection">Home</a>
                 </li>
@@ -20,9 +22,12 @@ function Navbar() {
                 <li>
                     <a href="#contactSection">Contact</a>
                 </li>
+                
             </ul>
-            <Button buttonStyle="cvBtn">View CV</Button>
         </nav>
+            <a href="#" target="_blank" className="cvBtn">View CV</a>
+        </div>
+        </header>
     )
 
 }
