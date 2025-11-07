@@ -8,22 +8,21 @@
   align-items: center;
   margin-bottom: 4rem;
 
+  font-family: var(--main-ff);
+
 }
 
 .hello {
   font-weight: var(--semi-bold);
   color: var(--yellow);
-  font-family: var(--main-ff);
   line-height: 5rem;
 }
 
 .name {
-  /* font-size: 4.5rem; */
-  font-size: clamp(2rem, 4.5rem, 5rem);
   font-weight: var(--light);
-  font-family: var(--main-ff);
+  font-size: clamp(2.5rem, 4.7vw, 5rem);
+  line-height: clamp(3rem, 5.2vw, 5.5rem);
   letter-spacing: 10%;
-  line-height: 5rem;
   text-transform: uppercase;
 }
 
@@ -32,13 +31,10 @@
   flex-direction: column;
   flex-wrap: wrap;
   gap: 1rem;
-
 }
 
 .role {
-  margin-top: 4rem;
-  font-family: var(--main-ff);
-
+  margin-top: clamp(0.5rem, 5vw, 4rem);
 }
 
 .role h2 {
@@ -52,19 +48,20 @@
 }
 
 .description {
-  font-family: var(--main-ff);
   font-size: 1rem;
   line-height: 1.75rem;
 }
 
 .viewProjects {
   height: 2.75rem;
-  min-width: 2rem;
-  max-width: 30%;
+  width: 8.75rem;
+  min-width: 4rem;
+  max-width: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 6rem;
+  
+  margin-top: clamp(2rem, 6.5vw, 6rem);
 
   color: var(--text-colour);
   border: none;
@@ -73,6 +70,7 @@
   cursor: pointer;
   text-decoration: none;
   transition: transform 300ms;
+
 }
 
 .rightArrow {
@@ -83,7 +81,7 @@
    animation: 750ms ease-in-out infinite normal bounce;
 }
 
-/* @keyframes bounce {
+@keyframes bounce {
   0%, 100% { transform: translateX(0);}
   50% { transform: translateX(5px);}
-} */
+}
