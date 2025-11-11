@@ -15,6 +15,7 @@ function About() {
                     and improving things so that they’re easy and intuitive. 
                     I also like to make things look good.
                 </p>
+                <br/>
                 <p>
                     I started learning development through The Odin Project and once I felt
                     comfortable with the basics, I started branching into making my own projects

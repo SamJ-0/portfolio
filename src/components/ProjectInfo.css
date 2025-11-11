@@ -3,6 +3,14 @@
     font-weight: var(--medium);
 }
 
+.tagContainer {
+    max-width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
 .projectDesc{
     line-height: 1.75rem;
     margin-bottom: 2rem;

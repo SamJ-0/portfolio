@@ -4,7 +4,7 @@ import "./Card.css"
 function Card({isImage, children, mainImage, hoverImage, mainAltText, hoverAltText}) {
 
      const [currentImage, setCurrentImage] = useState(() => (mainImage));
-     const [currentImgAlt, setImageAlt] = useState();
+     const [currentImgAlt, setImageAlt] = useState(() => mainAltText);
      
     const handleOnMouseEnter = () => {
         setCurrentImage(hoverImage);
@@ -19,7 +19,7 @@ function Card({isImage, children, mainImage, hoverImage, mainAltText, hoverAltTe
     return(
         <>
             {isImage ?  
-        <div className="cardContainer">
+        <div className="cardContainerImg">
              <div className="cardContentImg" onMouseEnter={handleOnMouseEnter} onMouseOut={handleOnMouseOut}>
                 <img className="projectImage" src={currentImage} alt={currentImgAlt} />
             </div>

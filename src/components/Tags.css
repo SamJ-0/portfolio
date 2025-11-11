@@ -1,17 +1,4 @@
-.tagContainer {
-    /* min-width: 25%;*/
-    max-width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin: 2rem 0;
-}
-
 .tagWrapper {
-    /* min-height: fit-content;
-    min-width: fit-content;
-    max-width: fit-content; */
-
     background-color: var(--tag-colour);
     border-radius: 6px;
 }

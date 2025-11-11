@@ -10,7 +10,7 @@ function Home() {
                 <h1 className="name">
                     Samantha<br/>
                     Johnson</h1>
-                <a href="#projectSection" className={"viewProjects"}>View projects<span className="rightArrow"><ArrowRight strokeWidth={1.5}/></span></a>
+                <a href="#projectSection" className="viewProjects">View projects<span className="rightArrow"><ArrowRight strokeWidth={1.5}/></span></a>
             </section>
             <section className="roleIntro">
                 <div className="role">

@@ -22,14 +22,13 @@
   font-weight: var(--light);
   font-size: clamp(2.5rem, 4.7vw, 5rem);
   line-height: clamp(3rem, 5.2vw, 5.5rem);
-  letter-spacing: 10%;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
 .roleIntro {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   gap: 1rem;
 }
 
@@ -53,14 +52,13 @@
 }
 
 .viewProjects {
-  height: 2.75rem;
-  width: 8.75rem;
-  min-width: 4rem;
-  max-width: 10rem;
+
+  max-width: 8.75rem; 
   display: flex;
-  justify-content: center;
   align-items: center;
-  
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+
   margin-top: clamp(2rem, 6.5vw, 6rem);
 
   color: var(--text-colour);

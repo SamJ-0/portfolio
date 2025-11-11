@@ -1,7 +1,8 @@
 .pageTitleContainer {
-    min-width: 9.375rem;
-    min-height: 9.375rem;
+    font-size: clamp(1.75rem, 2.6vw, 3.75rem);
 
+    min-width: 3.78em;
+    min-height: 3.75em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +12,5 @@
 
 .pageTitle {
     font-family: var(--section-heading);
-    font-size: 3.75rem;
-    line-height: 3rem;
+    line-height: clamp(2rem, 4vw, 3rem);
 }
