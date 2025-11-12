@@ -7,8 +7,6 @@
 }
 
 .contactDetailsPanel {
-    border-radius: 4px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,4 +21,10 @@
 .emailLabel {
     font-family: "Poppins", "Arial", sans-serif;
     font-weight: var(--medium);
+}
+
+@media (max-width: 768px) {
+    .contactDetailsPanel {
+        margin-top: 1.25rem;
+    }
 }

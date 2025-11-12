@@ -4,7 +4,7 @@ import "./Card.css"
 function Card({isImage, children, mainImage, hoverImage, mainAltText, hoverAltText}) {
 
      const [currentImage, setCurrentImage] = useState(() => (mainImage));
-     const [currentImgAlt, setImageAlt] = useState(() => mainAltText);
+     const [currentImgAlt, setImageAlt] = useState(mainAltText);
      
     const handleOnMouseEnter = () => {
         setCurrentImage(hoverImage);

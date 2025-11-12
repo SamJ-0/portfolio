@@ -11,8 +11,8 @@ function About() {
             <div className="aboutPanel">
              <section className="aboutContent">
                 <p>
-                    Hello, I’m Samantha. I love learning, problem-solving, creating solutions
-                    and improving things so that they’re easy and intuitive. 
+                    Hello, I'm Samantha. I love learning, problem-solving, creating solutions
+                    and improving things so that they're easy and intuitive. 
                     I also like to make things look good.
                 </p>
                 <br/>

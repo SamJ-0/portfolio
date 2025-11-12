@@ -1,6 +1,7 @@
 .tagWrapper {
-    background-color: var(--tag-colour);
+    text-align: center;
     border-radius: 6px;
+    background-color: var(--tag-colour);
 }
 
 .tagText {

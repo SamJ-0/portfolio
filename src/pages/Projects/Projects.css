@@ -1,8 +1,7 @@
 .projectsContainer {
   min-height: 100vh;
   max-width: 100%;
-  padding-bottom: 8rem;
-
+  padding-bottom: clamp(3rem, 8vw, 8rem);
 }
 
 .pageHeader {
@@ -21,4 +20,18 @@
 
 .projectInfoSection {
   max-width: 55ch;
+}
+
+@media (max-width: 768px) {
+  .projectInfoSection {
+    min-width: 32ch;
+    order: 2;
+  }
+
+  .cardSection {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 90%;
+  }
 }

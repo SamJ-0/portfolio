@@ -11,11 +11,11 @@ function Contact() {
                 <div className="horizontalLine"></div>
             </section>
             <footer className="contactDetailsPanel">
-                    <Icons showLinkedIn={true} containerClass={"iconContainer"}/>
                 <div className="email">
                     <p className="emailLabel">Email:</p>
                     <p className="emailAddress">ExampleEmail@outlook.com</p>
                 </div>
+                <Icons showLinkedIn={true} containerClass={"contactIcons iconContainer"}/>
                 <a href="#" target="_blank" className="btn btnUnderlined cvBtnFooter">View CV</a>
             </footer>
         </div>

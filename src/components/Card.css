@@ -1,22 +1,16 @@
 .cardContainer {
-    height: clamp(15rem, 18vw, 35rem);
+    height: clamp(12rem, 18vw, 35rem);
     width: clamp(20rem, 28vw, 42rem);
     display: flex;
     justify-content: center;
     align-items: center;
-    border: none;
     border-radius: 6px;
     background-color: hsla(0, 0%, 50%, 0.2);
 }
 
 .cardContainerImg {
-    width: clamp(20rem, 45vw, 42rem);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
+    overflow: hidden; 
     border-radius: 6px;
-    overflow: hidden;
     margin: 1rem 0;
 }
 
@@ -30,4 +24,10 @@
     max-width: 100%;
     aspect-ratio: 1.55/1;
     object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .cardContainerImg {
+        margin: auto 0;
+    }
 }

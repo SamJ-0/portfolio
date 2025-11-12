@@ -53,6 +53,7 @@
   font-weight: var(--medium);
   padding-bottom: 0.3rem;
   border-bottom: 0.15rem solid var(--yellow);
+  order: 2;
 }
 
 .cvBtnHome {
@@ -77,7 +78,6 @@
     padding: 0.75rem 1.75rem;
     border: 0.1rem solid var(--purple-accent);
     margin-top: clamp(2rem, 6.5vw, 6rem);
-
   }
 
   .viewProjectsBtn {
@@ -87,5 +87,9 @@
 
   .rightArrow {
     display: none;
+  }
+
+  .cvBtnFooter {
+    border-radius: 0;
   }
 }
