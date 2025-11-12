@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react"
 import "./Home.css"
+import "../../components/Button.css"
 import Icons from "../../components/Icons"
 
 function Home() {
@@ -10,7 +11,10 @@ function Home() {
                 <h1 className="name">
                     Samantha<br/>
                     Johnson</h1>
-                <a href="#projectSection" className="viewProjects">View projects<span className="rightArrow"><ArrowRight strokeWidth={1.5}/></span></a>
+                <section className="homeBtns">
+                <a href="#" target="_blank" className="btn btnFilled cvBtnHome">View CV</a>
+                <a href="#projectSection" className="btn btnUnderlined viewProjectsBtn">View projects<span className="rightArrow"><ArrowRight strokeWidth={1.5}/></span></a>
+                </section>
             </section>
             <section className="roleIntro">
                 <div className="role">
@@ -18,8 +22,8 @@ function Home() {
                    <h2>Software developer</h2>
                 </div>
                 <p className="description">
-                    Self-taught developer with an interest in UI, UX and<br/>design.
-                    I love creating clean, engaging projects and<br/>combining my skills
+                    Self-taught developer with an interest in UI, UX and design.
+                    I love creating clean, engaging projects and combining my skills
                     to build complete applications.</p>
                     <Icons showLinkedIn={true} containerClass={"homeIcons"}/>
             </section>

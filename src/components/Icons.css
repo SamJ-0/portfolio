@@ -21,8 +21,7 @@
 }
 
 .icons img {
-    min-height: 2rem;
-    max-height: 2rem;
+    height: clamp(1.75rem, 2.5vw, 2rem);
     max-width: 100%;
     opacity: 95%;
     transition: transform 200ms ease-in-out, opacity 150ms ease-in-out;
@@ -30,4 +29,12 @@
 
 .linkedInIcon {
     padding-left: 1rem;
+}
+
+@media (max-width: 768px) {
+  .homeIcons {
+    margin-top: 0;
+    align-self: center;
+    padding-top: 0.5rem;
+}
 }

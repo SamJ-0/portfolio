@@ -1,6 +1,6 @@
-import Button from "../../components/Button"
 import Icons from "../../components/Icons"
 import PageTitle from "../../components/PageTitle"
+import "../../components/Button.css"
 import "./Contact.css"
 
 function Contact() {
@@ -16,7 +16,7 @@ function Contact() {
                     <p className="emailLabel">Email:</p>
                     <p className="emailAddress">ExampleEmail@outlook.com</p>
                 </div>
-                <Button buttonStyle={"contactBtn"}>View CV</Button>
+                <a href="#" target="_blank" className="btn btnUnderlined cvBtnFooter">View CV</a>
             </footer>
         </div>
     )

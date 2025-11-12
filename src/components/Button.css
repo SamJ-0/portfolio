@@ -1,8 +1,59 @@
-button {
+/* .btn {
   font-family: inherit;
 }
 
-.contactBtn {
+.cvBtn {
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem;
+  font-size: 0.85rem;
+  font-weight: var(--semi-bold);
+  background-color: var(--purple-accent);
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.cvBtn:hover {
+  transform: translateY(-0.15rem);
+  background-color: var(--purple-accent-hover);
+}
+
+.viewProjectsBtn {
+  max-width: 8.75rem; 
+  display: flex;
+  align-items: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+
+  margin-top: clamp(2rem, 6.5vw, 6rem);
+
+  color: var(--text-colour);
+  background-color: transparent;
+  border-bottom: 0.15rem solid var(--purple-accent);
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 300ms;
+
+}
+
+.rightArrow {
+  padding-left: 0.5rem;
+}
+
+.viewProjectsBtn:hover .rightArrow {
+   animation: 750ms ease-in-out infinite normal bounce;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateX(0);}
+  50% { transform: translateX(5px);}
+}
+
+.cvBtnHome {
+  display: none;
+}
+
+.cvBtnFooter {
   height: 2rem;
   max-width: 5rem;
   display: flex;
@@ -13,7 +64,6 @@ button {
   font-weight: var(--medium);
 
   color: var(--text-colour);
-  border: none;
   background-color: transparent;
   border-bottom: 0.15rem solid var(--yellow);
   position: relative;
@@ -21,7 +71,128 @@ button {
   transition: transform 300ms;
 }
 
-.contactBtn:hover,
-.viewProjects:hover {
+.cvBtnFooter:hover,
+.viewProjectsBtn:hover {
   transform: translateY(-0.15rem);
+}
+
+@media (max-width: 768px) {
+  .cvBtn {
+    display: none;
+  }
+
+  .viewProjectsBtn {
+    max-width: fit-content;
+    padding: 0.75rem;
+    border-radius: 6px;
+    border: 2px solid var(--purple-accent);
+  }
+
+  .rightArrow {
+    display: none;
+  }
+
+  .cvBtnHome {
+  display: flex;
+  margin-top: clamp(2rem, 6.5vw, 6rem);
+  border: 2px solid var(--purple-accent);
+  border-radius: 6px;
+  padding: 0.75rem 1.75rem;
+  font-weight: var(--semi-bold);
+  background-color: var(--purple-accent);
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+  }
+} */
+
+.btn {
+  cursor: pointer;
+  font-family: inherit;
+
+  display: flex;
+  align-items: center;
+  color: var(--text-colour);
+  transition: transform 300ms;
+}
+
+.btnFilled {
+  font-size: 0.85rem;
+  font-weight: var(--semi-bold);
+  border-radius: 6px;
+  background-color: var(--purple-accent);
+  padding: 0.75rem;
+  transition: transform 300ms, background-color 0.3s;
+}
+
+.btnFilled:hover {
+  background-color: var(--purple-accent-hover);
+}
+
+.btnUnderlined:hover,
+.btnFilled:hover {
+  transform: translateY(-0.15rem);
+}
+
+.viewProjectsBtn {
+  max-width: 8.75rem;
+  margin-top: clamp(2rem, 6.5vw, 6rem);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.15rem solid var(--purple-accent);
+}
+
+.rightArrow {
+  padding-left: 0.5rem;
+}
+
+.viewProjectsBtn:hover .rightArrow {
+   animation: 750ms ease-in-out infinite normal bounce;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateX(0);}
+  50% { transform: translateX(5px);}
+}
+
+.cvBtnFooter {
+  font-size: 0.85rem;
+  font-family: var(--h3-ff);
+  font-weight: var(--medium);
+  padding-bottom: 0.3rem;
+  border-bottom: 0.15rem solid var(--yellow);
+}
+
+.cvBtnHome {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    border-radius: 6px;
+  }
+
+  .cvBtn {
+    display: none;
+  }
+
+  .homeBtns {
+    margin-top: 1rem;
+  }
+
+  .cvBtnHome {
+    display: flex;
+    padding: 0.75rem 1.75rem;
+    border: 0.1rem solid var(--purple-accent);
+    margin-top: clamp(2rem, 6.5vw, 6rem);
+
+  }
+
+  .viewProjectsBtn {
+    padding: 0.75rem;
+    border: 0.1rem solid var(--purple-accent);
+  }
+
+  .rightArrow {
+    display: none;
+  }
 }

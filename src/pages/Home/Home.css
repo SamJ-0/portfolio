@@ -15,7 +15,7 @@
 .hello {
   font-weight: var(--semi-bold);
   color: var(--yellow);
-  line-height: 5rem;
+  line-height: clamp(3rem, 5.5vw, 5rem);
 }
 
 .name {
@@ -30,6 +30,7 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  max-width: 40ch;
 }
 
 .role {
@@ -37,9 +38,9 @@
 }
 
 .role h2 {
-  font-size: 1.875rem;
+  font-size: clamp(1rem, 2vw, 1.875rem);
   font-weight: var(--semi-bold);
-  line-height: 2.5rem;
+  line-height: clamp(1.5rem, 3vw, 2.5rem);
 }
 
 .jobLevel {
@@ -51,35 +52,45 @@
   line-height: 1.75rem;
 }
 
-.viewProjects {
+@media (max-width: 768px) {
+  .homeContainer {
+    min-height: 70vh;
+  }
+  
+  .intro {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
 
-  max-width: 8.75rem; 
-  display: flex;
-  align-items: center;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  .hello {
+    font-size: 1rem;
+  }
 
-  margin-top: clamp(2rem, 6.5vw, 6rem);
+  .homeBtns {
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
 
-  color: var(--text-colour);
-  border: none;
-  background-color: transparent;
-  border-bottom: 0.15rem solid var(--purple-accent);
-  cursor: pointer;
-  text-decoration: none;
-  transition: transform 300ms;
+  .role {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    gap: 0.3rem;
+ 
+  }
 
+.jobLevel {
+  padding-top: 0;
 }
 
-.rightArrow {
-  padding-left: 0.5rem;
+.description {
+  text-align: center;
+  font-size: 0.85rem;
+  line-height: 1.5rem;
 }
 
-.viewProjects:hover .rightArrow {
-   animation: 750ms ease-in-out infinite normal bounce;
-}
-
-@keyframes bounce {
-  0%, 100% { transform: translateX(0);}
-  50% { transform: translateX(5px);}
 }

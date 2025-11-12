@@ -10,7 +10,7 @@
 }
 
 .cardContainerImg {
-    width: clamp(18rem, 45vw, 42rem);
+    width: clamp(20rem, 45vw, 42rem);
     display: flex;
     justify-content: center;
     align-items: center;

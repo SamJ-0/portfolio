@@ -1,5 +1,5 @@
 import "./Navbar.css"
-import Button from "./Button"
+import "./Button.css"
 
 function Navbar() {
 
@@ -25,7 +25,7 @@ function Navbar() {
                 
             </ul>
         </nav>
-            <a href="#" target="_blank" className="cvBtn">View CV</a>
+            <a href="#" target="_blank" className="btn btnFilled cvBtn">View CV</a>
         </div>
         </header>
     )
