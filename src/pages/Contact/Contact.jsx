@@ -13,7 +13,7 @@ function Contact() {
             <footer className="contactDetailsPanel">
                 <div className="email">
                     <p className="emailLabel">Email:</p>
-                    <p className="emailAddress">ExampleEmail@outlook.com</p>
+                    <p className="emailAddress">SamanthaJohnsonDev@outlook.com</p>
                 </div>
                 <Icons showLinkedIn={true} containerClass={"contactIcons iconContainer"}/>
                 <a href="#" target="_blank" className="btn btnUnderlined cvBtnFooter">View CV</a>
