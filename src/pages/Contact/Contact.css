@@ -18,6 +18,10 @@
     display: inline-block;
 }
 
+.email {
+    order: 2;
+}
+
 .emailLabel {
     font-family: "Poppins", "Arial", sans-serif;
     font-weight: var(--medium);
@@ -27,4 +31,9 @@
     .contactDetailsPanel {
         margin-top: 1.25rem;
     }
+
+    .email {
+        order: 0;
+    }
+
 }
