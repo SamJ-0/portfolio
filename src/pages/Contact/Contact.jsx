@@ -16,7 +16,7 @@ function Contact() {
                     <p className="emailAddress">SamanthaJohnsonDev@outlook.com</p>
                 </div>
                 <Icons showLinkedIn={true} containerClass={"contactIcons iconContainer"}/>
-                <a href="#" target="_blank" className="btn btnUnderlined cvBtnFooter">View CV</a>
+                <a href="/SamanthaJohnson_cv.pdf" target="_blank" className="btn btnUnderlined cvBtnFooter">View CV</a>
             </footer>
         </div>
     )

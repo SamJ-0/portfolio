@@ -1,6 +1,6 @@
 import "./Icons.css"
 
-function Icons({showLinkedIn, containerClass}) {
+function Icons({showLinkedIn, containerClass, githubLink}) {
     return (
           <div className={containerClass}>
         {showLinkedIn ?
@@ -14,7 +14,7 @@ function Icons({showLinkedIn, containerClass}) {
         </div>
         :
         <div className="icons">
-        <a href="https://github.com/SamJ-0" target="_blank" className="githubIcon">
+        <a href={githubLink} target="_blank" className="githubIcon">
                 <img className="github" src="/github.svg" alt="Github logo" />
             </a>
         </div>

@@ -25,7 +25,7 @@ function Navbar() {
                 
             </ul>
         </nav>
-            <a href="#" target="_blank" className="btn btnFilled cvBtn">View CV</a>
+            <a href="/SamanthaJohnson_cv.pdf" target="_blank" className="btn btnFilled cvBtn">View CV</a>
         </div>
         </header>
     )

@@ -3,7 +3,7 @@ import "./ProjectInfo.css"
 import "../index.css"
 import Icons from "./Icons"
 
-function ProjectInfo({title, firstParagraph, secondParagraph, tags}) {
+function ProjectInfo({title, firstParagraph, secondParagraph, tags, githubLink}) {
     return(
             <div className="projectInfoContainer">
             <h3 className="projectTitle">{title}</h3>
@@ -16,7 +16,7 @@ function ProjectInfo({title, firstParagraph, secondParagraph, tags}) {
                 <p>{firstParagraph}</p>
                 <p>{secondParagraph}</p>
             </div>
-            <Icons showLinkedIn={false} containerClass={"iconContainer"}/>
+            <Icons showLinkedIn={false} containerClass={"iconContainer"} githubLink={githubLink}/>
         </div>
     )
 }

@@ -12,7 +12,7 @@ function Home() {
                     Samantha<br/>
                     Johnson</h1>
                 <section className="homeBtns">
-                <a href="#" target="_blank" className="btn btnFilled cvBtnHome">View CV</a>
+                <a href="/SamanthaJohnson_cv.pdf" target="_blank" className="btn btnFilled cvBtnHome">View CV</a>
                 <a href="#projectSection" className="btn btnUnderlined viewProjectsBtn">View projects<span className="rightArrow"><ArrowRight strokeWidth={1.5}/></span></a>
                 </section>
             </section>
