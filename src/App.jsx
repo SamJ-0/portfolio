@@ -3,6 +3,7 @@ import About from "./pages/About/About.jsx"
 import Contact from "./pages/Contact/Contact.jsx"
 import Home from "./pages/Home/Home.jsx"
 import Projects from "./pages/Projects/Projects.jsx"
+import { Analytics } from '@vercel/analytics/next';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <Projects/>
     <About/>
     <Contact/>
+    <Analytics />
     </>
   )
 }
